@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Hero Section */
+
+.sign-up {
+    width: 450px;
+}
+
+.hero {
+    background-color: #1f2937;
+    color: white;
+    height: 410px;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    margin-bottom: 62px;
+}          
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.hero-secondary-text , li{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    padding-left: 16px;
+}       
+
+.header-image {
+    background: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+}
+
+/* Information Section */
+
+/* Quote Section */
+
+/* Sign Up Section */
