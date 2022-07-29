@@ -31,6 +31,10 @@ body {
     color: #F9FAF8;
 }
 
+a {
+    text-decoration: none;
+}
+
 .hero-main {
     display: flex;
     justify-content: space-between;
@@ -100,9 +104,17 @@ li {
     margin-right: 40px;
 }
 
-
-
 /* Quote Section */
 
-/* Sign Up Section */
+.quote-section {
+    background-color: #E5E7EB;
+}
 
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+/* Sign Up Section */
