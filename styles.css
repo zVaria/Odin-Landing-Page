@@ -107,7 +107,12 @@ li {
 /* Quote Section */
 
 .quote-section {
+    display: flex;
+    flex-direction: column;
     background-color: #E5E7EB;
+    height: 410px;
+    justify-content: center;
+    align-items: center;
 }
 
 .quote{
@@ -115,6 +120,58 @@ li {
     font-style: italic;
     font-weight: lighter;
     color: #1F2937;
+    width: 50%;
+    margin: 0px;
+}
+
+.person-quoted {
+    font-weight: bold;
+    display: flex;
+    padding-left: 700px;
 }
 
 /* Sign Up Section */
+.sign-up-section {
+    display: flex;
+    height: 210px;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    background: #3C99DC;
+    border-radius: 10px;
+}
+
+.sign-up-text h3 {
+    color: white;
+    margin-bottom: 0;
+}
+
+.sign-up-text p {
+    margin-top: 0;
+    color: lightgrey;
+}
+
+.sign-up-text {
+    padding-right: 100px;
+}
+
+.sign-up-button{
+    background: #3C99DC;
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+    color: white;
+    width: 100px;
+}
+
+.footer {
+    background: #1f2937;
+    color: lightgrey;
+    display: flex;
+    justify-content: center;
+}
